@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main()
+{
+	float chengji;
+	printf("请输入您的期末成绩:");
+	scanf_s("%f", &chengji);
+		if (chengji>=90&&chengji<=100)
+			printf("您的成绩：%.1f,对印的考核等级；A",chengji);
+		else if (chengji >= 80 && chengji <= 89)
+			printf("您的成绩：%.1f,对印的考核等级；B", chengji);
+		else if (chengji >= 60 && chengji <= 79)
+			printf("您的成绩：%.1f,对印的考核等级；C", chengji);
+		else
+			printf("您的成绩：%.1f,对印的考核等级；D", chengji);
+
+
+
+	return 0;
+}
